@@ -6,9 +6,7 @@
 
 ## YouTube Video
 
-[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20Now-red?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@TechOpsHubOfficial)
-
-<!-- TODO: Replace the link above with the direct EP01 video URL once published -->
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20Now-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/DFVBMPOUomo)
 
 ---
 
