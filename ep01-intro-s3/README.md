@@ -43,7 +43,7 @@ ep01-intro-s3/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/<your-github-username>/terraform-series.git
+git clone https://github.com/techopshubofficial/terraform-series.git
 cd terraform-series/ep01-intro-s3
 ```
 
@@ -119,7 +119,7 @@ resource "aws_s3_bucket" "demo" {
 
 ## GitHub Repo
 
-[![GitHub](https://img.shields.io/badge/GitHub-terraform--series-black?logo=github&style=for-the-badge)](https://github.com/<your-github-username>/terraform-series)
+[![GitHub](https://img.shields.io/badge/GitHub-terraform--series-black?logo=github&style=for-the-badge)](https://github.com/techopshubofficial/terraform-series)
 
 ---
 

@@ -1,0 +1,14 @@
+# Terraform state - kabhi commit mat karo (secrets hoti hain andar)
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
