@@ -15,7 +15,7 @@ terraform {
   backend "s3" {
     bucket         = "techops-hub-terraform-state-2026"
     key            = "ep03/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "us-east-2"
     profile        = "techops-demo"
     dynamodb_table = "techops-hub-prod-tf-locks"
     encrypt        = true
