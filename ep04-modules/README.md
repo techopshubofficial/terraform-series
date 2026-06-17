@@ -1,6 +1,34 @@
-# EP04 — Terraform Modules
+# EP04 — Terraform Modules: Write Once, Use Everywhere
 
-> **TechOps Hub** · YouTube Series · Episode 04
+**Terraform Series** | Episode 4 | Practical DevOps by [TechOps Hub](https://www.youtube.com/@TECHOPSHUBOFFICIAL)
+
+## 🎬 Watch on YouTube
+
+[![YouTube](https://img.shields.io/badge/YouTube-EP04%20WATCH%20NOW-red?style=for-the-badge&logo=youtube)](https://youtu.be/x1NDBmaqf8s)
+[![GitHub](https://img.shields.io/badge/GitHub-terraform--series-black?style=for-the-badge&logo=github)](https://github.com/mohitthakur3/terraform-series)
+
+## Is Episode Mein Kya Seekhoge
+
+- Copy-paste code ka kya problem hota hai production mein
+- Terraform Module kya hota hai — function ki tarah socho
+- Local module kaise banate hain
+- Same module se dev aur prod dono kaise manage karte hain
+- `terraform.workspace` variable ka use
+- Real teams mein modules kahan se aate hain (local, Git, Registry)
+
+---
+
+## Series Navigation
+
+| Episode | Topic | Link |
+|---|---|---|
+| EP01 | Installation + S3 Bucket | [Watch](https://www.youtube.com/@TECHOPSHUBOFFICIAL) |
+| EP02 | Terraform State File Deep Dive | [Watch](https://www.youtube.com/@TECHOPSHUBOFFICIAL) |
+| EP03 | Remote State: S3 + DynamoDB | [Watch](https://youtu.be/shEQpX30rpI) |
+| **EP04** | **Terraform Modules** | **You are here** |
+| EP05 | Terraform Workspaces | Coming Soon |
+
+---
 
 Stop copy-pasting infrastructure code. Modules let you write it once and reuse it everywhere — exactly how teams manage dev, staging, and prod environments.
 

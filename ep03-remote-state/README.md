@@ -1,8 +1,35 @@
-# EP03 — Terraform Remote State with S3
+# EP03 — Terraform Remote State: S3 Backend + DynamoDB Locking
 
-> **TechOps Hub** · YouTube Series · Episode 03
+**Terraform Series** | Episode 3 | Practical DevOps by [TechOps Hub](https://www.youtube.com/@TECHOPSHUBOFFICIAL)
 
-How teams store Terraform state remotely in S3 so everyone shares the same state — and how S3 native locking prevents two engineers from corrupting it.
+## 🎬 Watch on YouTube
+
+[![YouTube](https://img.shields.io/badge/YouTube-EP03%20WATCH%20NOW-red?style=for-the-badge&logo=youtube)](https://youtu.be/shEQpX30rpI)
+[![GitHub](https://img.shields.io/badge/GitHub-terraform--series-black?style=for-the-badge&logo=github)](https://github.com/mohitthakur3/terraform-series)
+
+## Is Episode Mein Kya Seekhoge
+
+- Local state ka kya problem hai team mein
+- Remote state kya hota hai aur kyun zaroori hai
+- S3 bucket se state kaise store karte hain
+- DynamoDB se state locking kaise kaam karti hai
+- `terraform init` se local state ko S3 pe migrate karna
+- Live demo: DynamoDB mein LockID entry aana aur jaana
+
+---
+
+## Series Navigation
+
+| Episode | Topic | Link |
+|---|---|---|
+| EP01 | Installation + S3 Bucket | [Watch](https://www.youtube.com/@TECHOPSHUBOFFICIAL) |
+| EP02 | Terraform State File Deep Dive | [Watch](https://www.youtube.com/@TECHOPSHUBOFFICIAL) |
+| **EP03** | **Remote State: S3 + DynamoDB** | **You are here** |
+| EP04 | Terraform Modules | [Watch](https://youtu.be/x1NDBmaqf8s) |
+
+---
+
+How teams store Terraform state remotely in S3 so everyone shares the same state — and how DynamoDB locking prevents two engineers from corrupting it at the same time.
 
 ---
 
