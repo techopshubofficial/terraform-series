@@ -1,0 +1,10 @@
+aws_region  = "us-east-1"
+aws_profile = "techops-demo"
+project     = "techops-hub"
+
+# Copy these from: cd ../ep06-vpc && terraform output
+vpc_id           = "vpc-0abc123..."
+public_subnet_id = "subnet-0abc123..."
+
+instance_type = "t3.micro"
+key_pair_name = "your-key-pair-name"
