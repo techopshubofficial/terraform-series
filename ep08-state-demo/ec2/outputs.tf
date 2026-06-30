@@ -1,3 +1,8 @@
+output "security_group_id" {
+  description = "EC2 security group ID — used by EP09 RDS to allow connections only from this host"
+  value       = aws_security_group.web.id
+}
+
 output "public_ip" {
   value = aws_instance.web.public_ip
 }

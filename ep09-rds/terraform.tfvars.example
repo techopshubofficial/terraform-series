@@ -1,0 +1,18 @@
+aws_region  = "us-east-1"
+aws_profile = "techops-demo"
+project     = "techops-hub"
+
+db_name           = "appdb"
+db_username       = "dbadmin"
+db_engine_version = "8.0"
+db_instance_class = "db.t3.micro"
+
+allocated_storage     = 20
+max_allocated_storage = 100
+
+multi_az            = false   # set true in production
+deletion_protection = false   # set true in production
+skip_final_snapshot = true    # set false in production
+
+# db_password is NOT here — Terraform generates it automatically
+# and stores it securely in AWS Secrets Manager
